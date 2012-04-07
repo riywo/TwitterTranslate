@@ -26,3 +26,5 @@ cover_db*
 *.gcov
 *.stackdump
 local/
+config.pl
+sandbox/

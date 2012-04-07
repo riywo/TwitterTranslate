@@ -26,6 +26,10 @@ use inc::Module::Install;
 
 all_from 'lib/TwitterTranslate.pm';
 
+requires 'AnyEvent::Twitter';
+requires 'AnyEvent::Twitter::Stream';
+requires 'AnyEvent::HTTP';
+requires 'Net::SSLeay';
 
 test_requires 'Test::More'     => '0.88';
 test_requires 'Test::Requires' => '0.06';
